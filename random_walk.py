@@ -14,7 +14,7 @@ class RandomWalk():
 
     def fill_walk(self):
         """Generating all points for random walk"""
-        # Making steps till expected number of points
+        # Making steps until reaching expected number of points
         while len(self.x_values) < self.num_points:
 
             # Choosing the direction and distance to walk
